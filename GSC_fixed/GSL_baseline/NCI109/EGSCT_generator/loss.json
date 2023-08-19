@@ -1,0 +1,52 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "NCI109",
+            "gpu": 7,
+            "lr": 0.001,
+            "epochs": 10,
+            "batch_size": 128,
+            "verbose": true,
+            "model": "EGSCT_generator",
+            "k_cross": 1,
+            "vaild_epoch": 9,
+            "seed": 2
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "0": {
+        "train mse": 0.3541114540757481
+    },
+    "1": {
+        "train mse": 0.0008717604713789167
+    },
+    "2": {
+        "train mse": 0.000757969122233911
+    },
+    "3": {
+        "train mse": 0.0006744792039419679
+    },
+    "4": {
+        "train mse": 0.0006433219892952152
+    },
+    "5": {
+        "train mse": 0.0006114077131193158
+    },
+    "6": {
+        "train mse": 0.000601736994403989
+    },
+    "7": {
+        "train mse": 0.0005847596468491658
+    },
+    "8": {
+        "train mse": 0.0005745141533158678
+    },
+    "9": {
+        "train mse": 0.0005627676416995506
+    },
+    "test": {
+        "mse": 3.8411596324294806
+    },
+    "used time": "7:02:16.552367"
+}

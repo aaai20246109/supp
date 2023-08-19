@@ -1,0 +1,86 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "AIDS700nef",
+            "gpu": 1,
+            "lr": 0.001,
+            "epochs": 18,
+            "batch_size": 128,
+            "hidden_size": 64,
+            "gnn_type": "gin",
+            "num_gnn": 3,
+            "verbose": true,
+            "model": "GEM_fusion",
+            "k_cross": 1,
+            "vaild_epoch": 17,
+            "seed": 2,
+            "doc": null,
+            "pGin": false,
+            "share_attention": true,
+            "graph_level_pooling": "sum",
+            "node_level_pooling": null,
+            "fusion": "minkowski",
+            "p": 1
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "0": {
+        "train mse": 0.004159695401138061
+    },
+    "1": {
+        "train mse": 0.0019564724915969557
+    },
+    "2": {
+        "train mse": 0.0016188757186633973
+    },
+    "3": {
+        "train mse": 0.001474286356307377
+    },
+    "4": {
+        "train mse": 0.001379010858032123
+    },
+    "5": {
+        "train mse": 0.0012647138963885027
+    },
+    "6": {
+        "train mse": 0.0011847261990727135
+    },
+    "7": {
+        "train mse": 0.0011350214313779856
+    },
+    "8": {
+        "train mse": 0.0010762017829687436
+    },
+    "9": {
+        "train mse": 0.0010359678622162978
+    },
+    "10": {
+        "train mse": 0.000998673515968049
+    },
+    "11": {
+        "train mse": 0.0009702714330191231
+    },
+    "12": {
+        "train mse": 0.0009394064736420842
+    },
+    "13": {
+        "train mse": 0.0009102212876166562
+    },
+    "14": {
+        "train mse": 0.0008984833883670003
+    },
+    "15": {
+        "train mse": 0.0008614963322639481
+    },
+    "16": {
+        "train mse": 0.0008436880035439346
+    },
+    "17": {
+        "train mse": 0.0008292173500091076
+    },
+    "test": {
+        "mse": 1.3443813659250736
+    },
+    "used time": "0:22:59.687586"
+}

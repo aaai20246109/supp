@@ -1,0 +1,54 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "NCI109",
+            "gpu": 4,
+            "lr": 0.001,
+            "epochs": 10,
+            "batch_size": 128,
+            "verbose": true,
+            "model": "graphsim",
+            "padding": 106,
+            "reshape": 54,
+            "k_cross": 1,
+            "vaild_epoch": 9,
+            "seed": 2
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "0": {
+        "train mse": 0.0010071987795704366
+    },
+    "1": {
+        "train mse": 0.0006480373659527661
+    },
+    "2": {
+        "train mse": 0.000612053969944243
+    },
+    "3": {
+        "train mse": 0.0005905076299661244
+    },
+    "4": {
+        "train mse": 0.000578780311619637
+    },
+    "5": {
+        "train mse": 0.0005679209464525142
+    },
+    "6": {
+        "train mse": 0.0005597827736007387
+    },
+    "7": {
+        "train mse": 0.0005543231920121409
+    },
+    "8": {
+        "train mse": 0.0005456289369624244
+    },
+    "9": {
+        "train mse": 0.000539036684215095
+    },
+    "test": {
+        "mse": 3.714923281222582
+    },
+    "used time": "21:17:07.165449"
+}

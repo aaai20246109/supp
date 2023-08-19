@@ -1,0 +1,85 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "NCI109",
+            "gpu": 6,
+            "lr": 0.001,
+            "epochs": 10,
+            "batch_size": 128,
+            "verbose": true,
+            "model": "ERIC",
+            "k_cross": 1,
+            "vaild_epoch": 9,
+            "seed": 2,
+            "gnn_encoder": "GIN",
+            "multi_contrast": false,
+            "gnn_filters": [
+                64
+            ],
+            "dropout": 0.0,
+            "deepsets": true,
+            "use_bn": false,
+            "deepsets_inner_act": "relu",
+            "deepsets_outer_act": "relu",
+            "fuse_type": "cat",
+            "pooling": "add",
+            "reduction": 2,
+            "inner_mlp": true,
+            "inner_mlp_layers": 1,
+            "outer_mlp_layers": 1,
+            "use_mlp_score": true,
+            "mlp_score_layer": 2,
+            "use_sim": true,
+            "NTN_layers": 1,
+            "tensor_neurons": 16,
+            "output_comb": true,
+            "use_ssl": true,
+            "norm": true,
+            "use_deepsets": true,
+            "use_ff": true,
+            "num_ff": 1,
+            "sep": true,
+            "measure": "JSD",
+            "cl_loss_norm": true,
+            "norm_type": "tanh",
+            "clip_grad": false,
+            "num_works": 10
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "0": {
+        "train mse": -0.9979741420227828
+    },
+    "1": {
+        "train mse": -0.9992430268899893
+    },
+    "2": {
+        "train mse": -0.9992855258660731
+    },
+    "3": {
+        "train mse": -0.9993116972621157
+    },
+    "4": {
+        "train mse": -0.9993354906536542
+    },
+    "5": {
+        "train mse": -0.9993387625746366
+    },
+    "6": {
+        "train mse": -0.9993947875580182
+    },
+    "7": {
+        "train mse": -0.9993500576840901
+    },
+    "8": {
+        "train mse": -0.9994062664122374
+    },
+    "9": {
+        "train mse": 0.0006166169260265159
+    },
+    "test": {
+        "mse": 3.832570742815733
+    },
+    "used time": "1 day, 9:35:07.056949"
+}

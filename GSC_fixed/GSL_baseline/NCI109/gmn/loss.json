@@ -1,0 +1,54 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "NCI109",
+            "gpu": 0,
+            "lr": 0.001,
+            "epochs": 10,
+            "batch_size": 128,
+            "verbose": true,
+            "model": "gmn",
+            "hidden_channels": 64,
+            "gmn_num": 4,
+            "k_cross": 1,
+            "vaild_epoch": 9,
+            "seed": 2
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "0": {
+        "train mse": 0.0013076592945822359
+    },
+    "1": {
+        "train mse": 0.001060102093849059
+    },
+    "2": {
+        "train mse": 0.0010307900053467998
+    },
+    "3": {
+        "train mse": 0.0010165904092457772
+    },
+    "4": {
+        "train mse": 0.0009499113914019797
+    },
+    "5": {
+        "train mse": 0.0009042311533503524
+    },
+    "6": {
+        "train mse": 0.0010861228428836389
+    },
+    "7": {
+        "train mse": 0.0011875791688673418
+    },
+    "8": {
+        "train mse": 0.001184494507674043
+    },
+    "9": {
+        "train mse": 0.001172130204187441
+    },
+    "test": {
+        "mse": 3.734445199370384
+    },
+    "used time": "6:00:09.645408"
+}

@@ -1,0 +1,85 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "PTC",
+            "gpu": 3,
+            "lr": 0.001,
+            "epochs": 18,
+            "batch_size": 128,
+            "hidden_size": 64,
+            "gnn_type": "gin",
+            "num_gnn": 3,
+            "verbose": true,
+            "model": "REDRAFT",
+            "k_cross": 1,
+            "vaild_epoch": 17,
+            "seed": 2,
+            "doc": null,
+            "pGin": false,
+            "share_attention": true,
+            "graph_level_pooling": "cba",
+            "node_level_pooling": "none",
+            "t": 2
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "0": {
+        "train mse": 0.002478188640825136
+    },
+    "1": {
+        "train mse": 0.0014007239180325295
+    },
+    "2": {
+        "train mse": 0.0013143062016138449
+    },
+    "3": {
+        "train mse": 0.001237302774693873
+    },
+    "4": {
+        "train mse": 0.0011900807685269244
+    },
+    "5": {
+        "train mse": 0.0011821921147947502
+    },
+    "6": {
+        "train mse": 0.0011767815272197553
+    },
+    "7": {
+        "train mse": 0.0011672994004617199
+    },
+    "8": {
+        "train mse": 0.0011248869358748477
+    },
+    "9": {
+        "train mse": 0.0011283000136924773
+    },
+    "10": {
+        "train mse": 0.0010960566773042869
+    },
+    "11": {
+        "train mse": 0.0011069221985393137
+    },
+    "12": {
+        "train mse": 0.0010954983669532329
+    },
+    "13": {
+        "train mse": 0.0010821616372825712
+    },
+    "14": {
+        "train mse": 0.0010660163427391707
+    },
+    "15": {
+        "train mse": 0.0010775260246640734
+    },
+    "16": {
+        "train mse": 0.0010592964942797076
+    },
+    "17": {
+        "train mse": 0.0010790491247155524
+    },
+    "test": {
+        "mse": 0.992818153463304
+    },
+    "used time": "0:04:59.539400"
+}

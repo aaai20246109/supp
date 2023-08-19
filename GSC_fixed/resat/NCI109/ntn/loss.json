@@ -1,0 +1,61 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "NCI109",
+            "gpu": 7,
+            "lr": 0.001,
+            "epochs": 10,
+            "batch_size": 128,
+            "hidden_size": 64,
+            "gnn_type": "gin",
+            "num_gnn": 3,
+            "verbose": true,
+            "model": "GEM_fusion",
+            "k_cross": 1,
+            "vaild_epoch": 9,
+            "seed": 2,
+            "doc": null,
+            "pGin": false,
+            "share_attention": true,
+            "graph_level_pooling": "sum",
+            "node_level_pooling": null,
+            "fusion": "ntn"
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "0": {
+        "train mse": 0.0014299835975211768
+    },
+    "1": {
+        "train mse": 0.0009743436131222066
+    },
+    "2": {
+        "train mse": 0.0009462905245720024
+    },
+    "3": {
+        "train mse": 0.0009374507112947787
+    },
+    "4": {
+        "train mse": 0.0009265809757259604
+    },
+    "5": {
+        "train mse": 0.0009204940441530655
+    },
+    "6": {
+        "train mse": 0.0009130199934900722
+    },
+    "7": {
+        "train mse": 0.0009196289540080614
+    },
+    "8": {
+        "train mse": 0.0009098392395013114
+    },
+    "9": {
+        "train mse": 0.0009055358205836268
+    },
+    "test": {
+        "mse": 3.6482454743236303
+    },
+    "used time": "7:21:34.355061"
+}

@@ -1,0 +1,62 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "NCI109",
+            "gpu": 5,
+            "lr": 0.001,
+            "epochs": 10,
+            "batch_size": 128,
+            "verbose": true,
+            "model": "mgmn",
+            "k_cross": 1,
+            "vaild_epoch": 9,
+            "seed": 2,
+            "dropout": 0.0,
+            "filters": 100,
+            "conv": "gcn",
+            "global_flag": true,
+            "global_agg": "lstm",
+            "perspectives": 100,
+            "task": "regression",
+            "match": "node-graph",
+            "match_agg": "bilstm",
+            "hidden_size": 100
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "0": {
+        "train mse": 0.001532393819504695
+    },
+    "1": {
+        "train mse": 0.0009891738503331007
+    },
+    "2": {
+        "train mse": 0.0008464698662818185
+    },
+    "3": {
+        "train mse": 0.0007628483430774773
+    },
+    "4": {
+        "train mse": 0.0007296280561799177
+    },
+    "5": {
+        "train mse": 0.0006880300280668232
+    },
+    "6": {
+        "train mse": 0.0006632697225676153
+    },
+    "7": {
+        "train mse": 0.0006411890953925228
+    },
+    "8": {
+        "train mse": 0.000626586683680098
+    },
+    "9": {
+        "train mse": 0.0006138033029705341
+    },
+    "test": {
+        "mse": 4.1434685699641705
+    },
+    "used time": "16:18:49.269754"
+}

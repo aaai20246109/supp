@@ -1,0 +1,61 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "PTC",
+            "gpu": 4,
+            "lr": 0.001,
+            "epochs": 10,
+            "batch_size": 128,
+            "hidden_size": 64,
+            "gnn_type": "gin",
+            "num_gnn": 3,
+            "verbose": true,
+            "model": "GEM_fusion",
+            "k_cross": 1,
+            "vaild_epoch": 9,
+            "seed": 2,
+            "doc": null,
+            "pGin": false,
+            "share_attention": true,
+            "graph_level_pooling": "sum",
+            "node_level_pooling": null,
+            "fusion": "efn"
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "0": {
+        "train mse": 0.0068943283968767805
+    },
+    "1": {
+        "train mse": 0.004111058582588245
+    },
+    "2": {
+        "train mse": 0.003824725669089155
+    },
+    "3": {
+        "train mse": 0.003488733872900302
+    },
+    "4": {
+        "train mse": 0.003366175507747916
+    },
+    "5": {
+        "train mse": 0.003109439197438208
+    },
+    "6": {
+        "train mse": 0.0032225412247191935
+    },
+    "7": {
+        "train mse": 0.0029773068171084285
+    },
+    "8": {
+        "train mse": 0.0031704289045504644
+    },
+    "9": {
+        "train mse": 0.002896357965704716
+    },
+    "test": {
+        "mse": 1.5883449232205749
+    },
+    "used time": "0:04:13.161699"
+}

@@ -1,0 +1,86 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "PTC",
+            "gpu": 0,
+            "lr": 0.001,
+            "epochs": 18,
+            "batch_size": 128,
+            "verbose": true,
+            "model": "mgmn",
+            "k_cross": 1,
+            "vaild_epoch": 17,
+            "seed": 5,
+            "dropout": 0.0,
+            "filters": 100,
+            "conv": "gcn",
+            "global_flag": true,
+            "global_agg": "lstm",
+            "perspectives": 100,
+            "task": "regression",
+            "match": "node-graph",
+            "match_agg": "bilstm",
+            "hidden_size": 100
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "0": {
+        "train mse": 0.010889239055216762
+    },
+    "1": {
+        "train mse": 0.005929567512399685
+    },
+    "2": {
+        "train mse": 0.004809394895017753
+    },
+    "3": {
+        "train mse": 0.004009675685490246
+    },
+    "4": {
+        "train mse": 0.0031978006552517728
+    },
+    "5": {
+        "train mse": 0.002775487171434124
+    },
+    "6": {
+        "train mse": 0.0024261101955864914
+    },
+    "7": {
+        "train mse": 0.002050465996221482
+    },
+    "8": {
+        "train mse": 0.0018640670419392928
+    },
+    "9": {
+        "train mse": 0.0018909669822048262
+    },
+    "10": {
+        "train mse": 0.0017965875952771068
+    },
+    "11": {
+        "train mse": 0.001803099449004428
+    },
+    "12": {
+        "train mse": 0.002131593733442476
+    },
+    "13": {
+        "train mse": 0.0015081958941686113
+    },
+    "14": {
+        "train mse": 0.0014412535248599183
+    },
+    "15": {
+        "train mse": 0.001563756362007684
+    },
+    "16": {
+        "train mse": 0.0016185545821180455
+    },
+    "17": {
+        "train mse": 0.0015959308743238427
+    },
+    "test": {
+        "mse": 4.476277623325586
+    },
+    "used time": "0:13:00.600829"
+}

@@ -1,0 +1,86 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "IMDBMulti",
+            "gpu": 2,
+            "lr": 0.001,
+            "epochs": 18,
+            "batch_size": 128,
+            "hidden_size": 64,
+            "gnn_type": "gin",
+            "num_gnn": 3,
+            "verbose": true,
+            "model": "GEM_fusion",
+            "k_cross": 1,
+            "vaild_epoch": 17,
+            "seed": 2,
+            "doc": null,
+            "pGin": false,
+            "share_attention": true,
+            "graph_level_pooling": "sum",
+            "node_level_pooling": null,
+            "fusion": "minkowski",
+            "p": 2
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "0": {
+        "train mse": 0.0010095844680677488
+    },
+    "1": {
+        "train mse": 0.0004483395680567818
+    },
+    "2": {
+        "train mse": 0.0003693224461764325
+    },
+    "3": {
+        "train mse": 0.00033296400798392585
+    },
+    "4": {
+        "train mse": 0.00030973546322483555
+    },
+    "5": {
+        "train mse": 0.0002928703607975188
+    },
+    "6": {
+        "train mse": 0.00028258273552320254
+    },
+    "7": {
+        "train mse": 0.000273248122559777
+    },
+    "8": {
+        "train mse": 0.0002672050098402212
+    },
+    "9": {
+        "train mse": 0.0002609448111345454
+    },
+    "10": {
+        "train mse": 0.00025774064485054564
+    },
+    "11": {
+        "train mse": 0.0002531916171314912
+    },
+    "12": {
+        "train mse": 0.0002490274360662994
+    },
+    "13": {
+        "train mse": 0.0002468118001484676
+    },
+    "14": {
+        "train mse": 0.00024294404159963914
+    },
+    "15": {
+        "train mse": 0.00024172885492244097
+    },
+    "16": {
+        "train mse": 0.00023897312212650746
+    },
+    "17": {
+        "train mse": 0.00023809448055278498
+    },
+    "test": {
+        "mse": 0.44190214248374104
+    },
+    "used time": "1:31:47.900459"
+}

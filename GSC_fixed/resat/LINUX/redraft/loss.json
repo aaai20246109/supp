@@ -1,0 +1,30 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "LINUX",
+            "gpu": 0,
+            "lr": 0.001,
+            "epochs": 18,
+            "batch_size": 128,
+            "hidden_size": 64,
+            "gnn_type": "gin",
+            "num_gnn": 3,
+            "verbose": true,
+            "model": "REDRAFT",
+            "k_cross": 1,
+            "vaild_epoch": 17,
+            "seed": 2,
+            "doc": null,
+            "pGin": false,
+            "share_attention": true,
+            "graph_level_pooling": "sum",
+            "node_level_pooling": "none"
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "test": {
+        "mse": 0.061575490690302104
+    },
+    "used time": "0:41:51.299047"
+}

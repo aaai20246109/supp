@@ -1,0 +1,60 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "NCI109",
+            "gpu": 0,
+            "lr": 0.001,
+            "epochs": 10,
+            "batch_size": 128,
+            "hidden_size": 64,
+            "gnn_type": "gin",
+            "num_gnn": 3,
+            "verbose": true,
+            "model": "REDRAFT",
+            "k_cross": 1,
+            "vaild_epoch": 9,
+            "seed": 2,
+            "doc": null,
+            "pGin": false,
+            "share_attention": true,
+            "graph_level_pooling": "sum",
+            "node_level_pooling": "none"
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "0": {
+        "train mse": 0.0007915354606190574
+    },
+    "1": {
+        "train mse": 0.0006620468939968646
+    },
+    "2": {
+        "train mse": 0.0006667494731175033
+    },
+    "3": {
+        "train mse": 0.000625308921679836
+    },
+    "4": {
+        "train mse": 0.0006108960118241737
+    },
+    "5": {
+        "train mse": 0.0006019189997155995
+    },
+    "6": {
+        "train mse": 0.0005977227218494153
+    },
+    "7": {
+        "train mse": 0.0005957571147098859
+    },
+    "8": {
+        "train mse": 0.0005915239025685796
+    },
+    "9": {
+        "train mse": 0.0005913593562819212
+    },
+    "test": {
+        "mse": 3.5867998376488686
+    },
+    "used time": "7:33:32.976810"
+}

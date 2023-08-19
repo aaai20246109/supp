@@ -1,0 +1,85 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "LINUX",
+            "gpu": 1,
+            "lr": 0.001,
+            "epochs": 18,
+            "batch_size": 128,
+            "hidden_size": 64,
+            "gnn_type": "gin",
+            "num_gnn": 3,
+            "verbose": true,
+            "model": "REDRAFT",
+            "k_cross": 1,
+            "vaild_epoch": 17,
+            "seed": 2,
+            "doc": null,
+            "pGin": false,
+            "share_attention": true,
+            "graph_level_pooling": "cba",
+            "node_level_pooling": "none",
+            "t": 2
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "0": {
+        "train mse": 0.0010602731502095454
+    },
+    "1": {
+        "train mse": 0.00021571848576949402
+    },
+    "2": {
+        "train mse": 0.00014721789289792037
+    },
+    "3": {
+        "train mse": 0.00010410728613373225
+    },
+    "4": {
+        "train mse": 7.257755279631317e-05
+    },
+    "5": {
+        "train mse": 5.129501992926182e-05
+    },
+    "6": {
+        "train mse": 3.9363710990688696e-05
+    },
+    "7": {
+        "train mse": 3.2665292418930636e-05
+    },
+    "8": {
+        "train mse": 2.6263133484519647e-05
+    },
+    "9": {
+        "train mse": 2.263773752272427e-05
+    },
+    "10": {
+        "train mse": 1.882424687317993e-05
+    },
+    "11": {
+        "train mse": 1.5402455439979844e-05
+    },
+    "12": {
+        "train mse": 1.4386867001294548e-05
+    },
+    "13": {
+        "train mse": 1.296519009616862e-05
+    },
+    "14": {
+        "train mse": 1.1076106808593527e-05
+    },
+    "15": {
+        "train mse": 1.0472263733068371e-05
+    },
+    "16": {
+        "train mse": 9.634296815844902e-06
+    },
+    "17": {
+        "train mse": 8.597327666658337e-06
+    },
+    "test": {
+        "mse": 0.044378059101291
+    },
+    "used time": "0:36:04.903860"
+}

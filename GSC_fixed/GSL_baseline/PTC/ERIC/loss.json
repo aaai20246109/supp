@@ -1,0 +1,109 @@
+{
+    "config": {
+        "_map": {
+            "datasets": "PTC",
+            "gpu": 1,
+            "lr": 0.001,
+            "epochs": 18,
+            "batch_size": 128,
+            "verbose": true,
+            "model": "ERIC",
+            "k_cross": 1,
+            "vaild_epoch": 17,
+            "seed": 2,
+            "gnn_encoder": "GIN",
+            "multi_contrast": false,
+            "gnn_filters": [
+                64
+            ],
+            "dropout": 0.0,
+            "deepsets": true,
+            "use_bn": false,
+            "deepsets_inner_act": "relu",
+            "deepsets_outer_act": "relu",
+            "fuse_type": "cat",
+            "pooling": "add",
+            "reduction": 2,
+            "inner_mlp": true,
+            "inner_mlp_layers": 1,
+            "outer_mlp_layers": 1,
+            "use_mlp_score": true,
+            "mlp_score_layer": 2,
+            "use_sim": true,
+            "NTN_layers": 1,
+            "tensor_neurons": 16,
+            "output_comb": true,
+            "use_ssl": true,
+            "norm": true,
+            "use_deepsets": true,
+            "use_ff": true,
+            "num_ff": 1,
+            "sep": true,
+            "measure": "JSD",
+            "cl_loss_norm": true,
+            "norm_type": "tanh",
+            "num_works": 10,
+            "clip_grad": {}
+        },
+        "_dynamic": true,
+        "_prevent_method_masking": false
+    },
+    "0": {
+        "train mse": -0.8837089613416648
+    },
+    "1": {
+        "train mse": -0.9875452039112528
+    },
+    "2": {
+        "train mse": -0.9934590512729553
+    },
+    "3": {
+        "train mse": -0.9946691849863672
+    },
+    "4": {
+        "train mse": -0.9957466491733689
+    },
+    "5": {
+        "train mse": -0.9963325479303498
+    },
+    "6": {
+        "train mse": -0.9967286407229412
+    },
+    "7": {
+        "train mse": -0.9972097022705767
+    },
+    "8": {
+        "train mse": -0.9971962285688124
+    },
+    "9": {
+        "train mse": -0.9976627104971783
+    },
+    "10": {
+        "train mse": -0.9977015481296793
+    },
+    "11": {
+        "train mse": -0.9977605949683361
+    },
+    "12": {
+        "train mse": -0.9978444188474173
+    },
+    "13": {
+        "train mse": -0.9979755262653511
+    },
+    "14": {
+        "train mse": -0.9980006435190338
+    },
+    "15": {
+        "train mse": -0.9980699391250151
+    },
+    "16": {
+        "train mse": -0.9981727609074259
+    },
+    "17": {
+        "train mse": -0.0013100346748461857
+    },
+    "test": {
+        "mse": 1.7886415589600801
+    },
+    "used time": "0:28:10.975874"
+}
